@@ -1,6 +1,6 @@
 const PubSub = require('../helpers/pub_sub.js');
 
-class InstrumentFamilyView {
+export default class InstrumentFamilyView {
   constructor(container){
     this.container = container;
   }
@@ -94,4 +94,4 @@ class InstrumentFamilyView {
 //   return list;
 // };
 
-module.exports = InstrumentFamilyView;
+// module.exports = InstrumentFamilyView;

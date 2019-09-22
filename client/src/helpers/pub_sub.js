@@ -1,3 +1,4 @@
+
 const PubSub = {
   publish: function (channel, payload) {
     var event = new CustomEvent(channel, {
@@ -11,4 +12,4 @@ const PubSub = {
   }
 };
 
-module.exports = PubSub;
+ module.exports = PubSub;
